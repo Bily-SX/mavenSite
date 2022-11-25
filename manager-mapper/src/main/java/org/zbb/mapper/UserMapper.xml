@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapper namespace="org.zbb.mapper.UserMapper">
+    <insert id="insertUser" parameterType="org.zbb.pojo.Users">
+        insert into user(name) values (#{name})
+    </insert>
+    <select id="selectUserALl" resultType="org.zbb.pojo.Users">
+        select * from user
+    </select>
+</mapper>
