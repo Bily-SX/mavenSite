@@ -4,6 +4,6 @@
         insert into user(name) values (#{name})
     </insert>
     <select id="selectUserALl" resultType="org.zbb.pojo.Users">
-        select * from user where 11=11
+        select * from user where 2=2
     </select>
 </mapper>
